@@ -119,17 +119,17 @@ else{
 
 
 //escolha dos numeros
-let numero1 = 30
-let numero2 = 15
+let numero1 = 15
+let numero2 = 20
 // verificar se e maior que 30
-if(numero1 > 15){
-    console.log("e maior que 15!")
+if(numero1 > 15 && numero2 > 15 ){
+    cnonsole.log("e maior que 15!")
 }
-else if(numero2 > 15){
+else if(numero2 = 15){
     //verificar se e menor ou igual a 15
     console.log("e igual a 15!" )
 }
-else{
+else {
     //ver se e menor que 30
     console.log("e menor que 30")
 }
@@ -137,24 +137,64 @@ else{
 // chave de acesso 
 let senha = senai123
 //verificar se a senha esta correta
-if(senha = senai123){
+if(senha > senai123 && senha > senai123){
     console.log("acesso autorizado")
 }
-else if(senha = senai123){
-    console.log("Senha igual")
-}
-else if(senha = senai321){
+
+else if (eror){
     console.log("Senha incorreta")
 }
 
-let grau = 18
+let grau = 19
 
-if(grau = 18){
+if(grau >= 18 || grau > 18 && 27 || grau < 27){
     console.log("frio")
 }
-else if(senha = 18 - 27){
+else if(grau = 18 - 27){
     console.log("agradavel")
 }
-else if(senha = 27){
+else if(grau = 27){
     console.log("quente")
+}
+
+let idadeDirigir = 19;
+let temCNH = true;
+let temCarro = false;
+
+if(idadeDirigir >= 18 && temCNH == true && temCarro == true){
+    console.log("Voce pode dirigir!")
+}else{
+    console.log("Voce não pode dirigir")
+}
+
+let ehProfessor = false;
+let ehAluno = false;
+if(ehProfessor == true || ehAluno == true){
+    console.log("Voce tem direito a meia-entrada!")
+}else{
+    console.log("voce não tem direito a meia-entrada!")
+}
+
+// && = e 
+// || = ou
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+let numero = 28;
+
+if(numero > 10 && numero < 50){
+    console.log("este numero esta no intervalo entre 10 e 50")
+}else{
+    console.log("esta fora do intervalo entre 10 e 50")
+}
+
+let valorCompra = 152;
+let ehAssinante = true;
+
+if(valorCompra >= 200 || ehAssinante){
+    console.log("voce tem direito a frete gratis!")
+}
+
+else{
+    
 }
